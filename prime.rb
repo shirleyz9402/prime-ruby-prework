@@ -3,12 +3,13 @@ def prime?(number)
   i = 0
   for i in divider
   loop do 
-  if number < 0
-    return false
-  elsif number % divider[i] == 0
-    return false
-  elsif number % divider[i] > 0
-    i++
+    if number < 0
+      return false
+    elsif number % divider[i] == 0
+      return false
+    elsif number % divider[i] > 0
+      i++
+    end 
   end 
   return true
  end
