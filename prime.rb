@@ -9,4 +9,6 @@ def prime?(number)
     return false
   elsif number % divider[i] > 0
     i++
+  end 
+  return true
  end
