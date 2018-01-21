@@ -3,6 +3,5 @@ def prime?(number)
   if number < 0
     return false
   elsif
-  for 
     number % divider
  end
