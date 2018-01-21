@@ -1,7 +1,7 @@
 def prime?(number)
   divider = Array(2..number - 1)
   i = 0
-  for i in divider
+  for i <= divider.length
   loop do 
     if number < 0
       return false
